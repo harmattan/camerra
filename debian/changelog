@@ -1,3 +1,9 @@
+camerra (1.0.1) harmattan; urgency=low
+
+  * Maybe supports the N950 with camera button
+
+ -- Thomas Perl <m@thp.io>  Thu, 06 Dec 2012 21:13:07 +0100
+
 camerra (1.0.0) harmattan; urgency=low
 
   * Initial release of the Camerra Hack.

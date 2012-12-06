@@ -58,7 +58,7 @@ def keyEvent(key, state):
         # Avoid hammering the cam app when Vol+ is being kept pressed
         return
 
-    if key == state == 2 and camera_app_on_top():
+    if key == 1 and state == 2 and camera_app_on_top():
         last_time = time.time()
         p = subprocess.Popen(['xresponse', '-d', '820x240,820x240', '-w', '1'],
                              stdout=subprocess.PIPE, stderr=subprocess.PIPE)
